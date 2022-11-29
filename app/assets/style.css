@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+a {
+  color: #01579b;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #00b0ff;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: red;
+}
+.form-search {
+  margin: auto;
+  text-align: center;
+}
+.form-search input {
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+.grid-fluid {
+  background-color: #fff;
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.header {
+  border-bottom: 2px black solid;
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: #fff;
+}
+header > * {
+  margin: 1rem auto;
+}
+.loader {
+  margin: 1rem auto;
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+.post-card {
+  background-color: #00b0ff;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+}
+.post-card p {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+.post-page {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+}
+.post-page > aside {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.post-page > hr {
+  border: thin solid #cfd8dc;
+  margin: 2rem auto;
+  width: 80%;
+}
+.post-pag time {
+  margin: 1rem auto;
+  display: block;
+}
+.post-pag article {
+  padding: 0 2rem;
+}
+.post-pag img,
+.post-pag figure,
+.post-pag audio,
+.post-pag iframe,
+.post-pag video {
+  background-color: #fff;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+}
